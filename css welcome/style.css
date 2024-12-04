@@ -1,0 +1,19 @@
+body{
+  background-color: #24353f;
+  font-family: sans-serif;
+}
+.navbar{
+  background-color: #24353f !important;
+}
+.item {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.container{
+  top: 200px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.x{
+  color: #3283b2;
+}
