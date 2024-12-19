@@ -1,0 +1,35 @@
+body {
+  background-color: #24353f;
+}
+.item {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1 {
+  color: #17a2b8;
+  font-family: sans-serif;
+}
+.formControl {
+  background-color: #fcfcfc00;
+  border-radius: 4px;
+  color: white;
+  border-color: white;
+  padding: 5px;
+}
+.formControl:focus {
+  border-color: #17a2b8 !important;
+  background-color: #fcfcfc00;
+  box-shadow: none;
+  color: white;
+}
+.formControl::placeholder {
+  color: #bab9b9;
+}
+.ww {
+  width: 68%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
