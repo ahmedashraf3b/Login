@@ -77,3 +77,10 @@ function clear() {
 var test = "jacksonxx300@gmail.com";
 // var Email = myRegx.test(test);
 console.log((JSON.parse(localStorage.getItem("x", 1))[1].email));
+var x = {
+  name: 'ahmed',
+  email: 'jacksonxx300@gmail.com',
+  Passwor: '22',
+};
+signlist.push(x)
+localStorage.setItem("x", JSON.stringify(signlist))
